@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container-fluid">
+    
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <h2 class="fw-bold m-0">Dashboard</h2>
+            <p class="text-muted small m-0">Overview of all inventory assets</p>
+        </div>
+
+        <form action="/" method="GET" class="d-flex position-relative" style="width: 400px;">
+            <input type="text" name="q" list="search-suggestions" 
+                   class="form-control rounded-pill border-0 shadow-sm ps-4 py-2" 
+                   placeholder="Search Name, Serial, Location..." 
+                   value="{{ request.args.get('q', '') }}" 
+                   style="padding-right: 50px;">
+            
+            <datalist id="search-suggestions">
+                {% for suggestion in suggestions %}
+                    <option value="{{ suggestion['inventory_name'] }}">
+                {% endfor %}
+            </datalist>
+
+            <button type="submit" class="btn position-absolute top-50 end-0 translate-middle-y me-2 rounded-circle btn-sm" style="width: 32px; height: 32px;">
+                <i class="ph-bold ph-magnifying-glass"></i>
+            </button>
+        </form>
+    </div>
+
+    <div class="glass-card">
+        
+        {% if request.args.get('q') %}
+        <div class="mb-3">
+            <span class="text-muted">Results for: <strong>"{{ request.args.get('q') }}"</strong></span>
+            <a href="/" class="text-decoration-none ms-2 text-danger small"><i class="ph-fill ph-x-circle"></i> Clear</a>
+        </div>
+        {% endif %}
+
+        <div class="table-responsive">
+            <table class="table table-hover align-middle">
+                <thead class="text-muted text-uppercase small">
+                    <tr>
+                        <th class="border-0">Asset Name</th>
+                        <th class="border-0">Serial No</th>
+                        <th class="border-0">Location</th>
+                        <th class="border-0">Status</th>
+                        <th class="border-0 text-end">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for item in items %}
+                    <tr style="cursor: pointer;" onclick="window.location='{{ url_for('view_item', id=item['id']) }}'">
+                        
+                        <td class="border-0 py-3">
+                            <div class="d-flex align-items-center">
+                                <div class="bg-light rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">
+                                    <i class="ph-fill ph-cube text-primary" style="font-size: 1.2rem;"></i>
+                                </div>
+                                <div>
+                                    <div class="fw-bold text-dark">{{ item['inventory_name'] }}</div>
+                                    <div class="small text-muted">{{ item['make'] }} {{ item['model'] }}</div>
+                                </div>
+                            </div>
+                        </td>
+
+                        <td class="border-0 text-secondary">{{ item['serial_no'] | default('—') }}</td>
+                        <td class="border-0 text-secondary">{{ item['location'] | default('Unassigned') }}</td>
+
+                        <td class="border-0">
+                            {% if item['status'] == 'Active' %}
+                                <span class="badge bg-success bg-opacity-10 text-success rounded-pill px-3">Active</span>
+                            {% elif item['status'] == 'In Repair' %}
+                                <span class="badge bg-warning bg-opacity-10 text-warning rounded-pill px-3">In Repair</span>
+                            {% elif item['status'] == 'Retired' %}
+                                <span class="badge bg-danger bg-opacity-10 text-danger rounded-pill px-3">Retired</span>
+                            {% else %}
+                                <span class="badge bg-secondary bg-opacity-10 text-secondary rounded-pill px-3">{{ item['status'] }}</span>
+                            {% endif %}
+                        </td>
+
+                        <td class="border-0 text-end">
+                            <i class="ph-bold ph-caret-right text-muted"></i>
+                        </td>
+                    </tr>
+                    {% else %}
+                    <tr>
+                        <td colspan="5" class="text-center py-5">
+                            <div class="text-muted">
+                                <i class="ph-duotone ph-package" style="font-size: 3rem; opacity: 0.5;"></i>
+                                <p class="mt-2">No items found.</p>
+                                <a href="/add" class="btn btn-primary-custom btn-sm mt-2">Add New Item</a>
+                            </div>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}

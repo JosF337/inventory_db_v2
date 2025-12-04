@@ -1,0 +1,20 @@
+# --- Python & Flask Junk ---
+__pycache__/
+*.pyc
+instance/
+.pytest_cache/
+.venv/
+venv/
+
+# --- Database (We keep the CSV in 'data/', but ignore the live DB) ---
+*.db
+*.sqlite3
+
+# --- PyInstaller Build Folders (Don't upload the exe) ---
+build/
+dist/
+*.spec
+
+# --- OS Junk ---
+.DS_Store
+Thumbs.db

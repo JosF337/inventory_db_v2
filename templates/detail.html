@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="mb-4">
+        <a href="/" class="btn btn-light rounded-pill px-4">
+            <i class="ph ph-arrow-left"></i> Back to Dashboard
+        </a>
+    </div>
+
+    <div class="glass-card">
+        <div class="d-flex justify-content-between align-items-center mb-4 border-bottom pb-3">
+            <div>
+                <h1 class="fw-bold m-0">{{ item['inventory_name'] }}</h1>
+                <p class="text-muted small m-0">ID: #{{ item['id'] }}</p>
+            </div>
+            {% if item['status'] == 'Active' %}
+                <span class="badge bg-success bg-opacity-10 text-success rounded-pill px-3 py-2 fs-6">Active</span>
+            {% elif item['status'] == 'In Repair' %}
+                <span class="badge bg-warning bg-opacity-10 text-warning rounded-pill px-3 py-2 fs-6">In Repair</span>
+            {% elif item['status'] == 'Retired' %}
+                <span class="badge bg-danger bg-opacity-10 text-danger rounded-pill px-3 py-2 fs-6">Retired</span>
+            {% else %}
+                <span class="badge bg-secondary bg-opacity-10 text-secondary rounded-pill px-3 py-2 fs-6">{{ item['status'] }}</span>
+            {% endif %}
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <h5 class="text-primary mb-3"><i class="ph ph-cpu"></i> Technical Specs</h5>
+                <table class="table table-borderless">
+                    <tr>
+                        <td class="text-muted" width="40%">Serial Number</td>
+                        <td class="fw-bold">{{ item['serial_no'] | default('N/A') }}</td>
+                    </tr>
+                    <tr>
+                        <td class="text-muted">Make</td>
+                        <td>{{ item['make'] | default('N/A') }}</td>
+                    </tr>
+                    <tr>
+                        <td class="text-muted">Model</td>
+                        <td>{{ item['model'] | default('N/A') }}</td>
+                    </tr>
+                    <tr>
+                        <td class="text-muted">Hardware Type</td>
+                        <td>{{ item['hardware_type'] | default('N/A') }}</td>
+                    </tr>
+                    <tr>
+                        <td class="text-muted">Specifications</td>
+                        <td>{{ item['spec'] | default('No specs available.') }}</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="col-md-6">
+                <h5 class="text-primary mb-3"><i class="ph ph-currency-dollar"></i> Purchase & Location</h5>
+                <table class="table table-borderless">
+                    <tr>
+                        <td class="text-muted" width="40%">Location</td>
+                        <td class="fw-bold">{{ item['location'] | default('Unassigned') }}</td>
+                    </tr>
+                    <tr>
+                        <td class="text-muted">Purchase Date</td>
+                        <td>{{ item['purchase_date'] | default('N/A') }}</td>
+                    </tr>
+                    <tr>
+                        <td class="text-muted">Warranty Period</td>
+                        <td>{{ item['warranty__period'] | default('N/A') }}</td>
+                    </tr>
+                    <tr>
+                        <td class="text-muted">Vendor</td>
+                        <td>{{ item['vendor'] | default('N/A') }}</td>
+                    </tr>
+                    <tr>
+                        <td class="text-muted">Bill Details</td>
+                        <td>{{ item['bill_details'] | default('N/A') }}</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="mt-4 pt-3 border-top d-flex justify-content-end gap-2 align-items-center">
+             
+             <form action="{{ url_for('delete_item', id=item['id']) }}" method="POST" 
+                   onsubmit="return confirm('Are you sure you want to permanently delete this item?');">
+                <button type="submit" class="btn btn-outline-danger rounded-pill border">
+                    <i class="ph ph-trash"></i> Delete
+                </button>
+             </form>
+
+             <a href="/edit/{{ item['id'] }}" class="btn btn-light rounded-pill border">
+                <i class="ph ph-pencil-simple"></i> Edit Details
+            </a>
+
+             <a href="{{ url_for('download_qr', id=item['id']) }}" class="btn btn-primary-custom">
+                <i class="ph ph-qr-code"></i> Download QR
+            </a>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,121 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container-fluid">
+    
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <h2 class="fw-bold m-0">
+                {% if item %}Edit Asset{% else %}Add New Asset{% endif %}
+            </h2>
+            <p class="text-muted small m-0">
+                {% if item %}Update existing details for {{ item['inventory_name'] }}{% else %}Register a new item into the system{% endif %}
+            </p>
+        </div>
+        <a href="/" class="btn btn-light rounded-pill px-4">
+            <i class="ph ph-x"></i> Cancel
+        </a>
+    </div>
+
+    <div class="glass-card">
+        <form method="POST" action="{% if item %}{{ url_for('edit_item', id=item['id']) }}{% else %}{{ url_for('add_item') }}{% endif %}">
+            
+            <h5 class="text-primary border-bottom pb-2 mb-4"><i class="ph ph-fingerprint"></i> Identity & Hardware</h5>
+            
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label class="form-label text-muted small text-uppercase fw-bold">Asset Name <span class="text-danger">*</span></label>
+                    <input type="text" name="inventory_name" class="form-control rounded-pill bg-light border-0 px-3" 
+                           placeholder="e.g. Designer Workstation" 
+                           value="{{ item['inventory_name'] if item else '' }}" required>
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label text-muted small text-uppercase fw-bold">Serial Number</label>
+                    <input type="text" name="serial_no" class="form-control rounded-pill bg-light border-0 px-3" 
+                           placeholder="S/N 123456789" 
+                           value="{{ item['serial_no'] if item else '' }}" required>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <label class="form-label text-muted small text-uppercase fw-bold">Make (Brand)</label>
+                    <input type="text" name="make" class="form-control rounded-pill bg-light border-0 px-3" 
+                           placeholder="Dell, HP, Apple..." value="{{ item['make'] if item else '' }}">
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label text-muted small text-uppercase fw-bold">Model</label>
+                    <input type="text" name="model" class="form-control rounded-pill bg-light border-0 px-3" 
+                           placeholder="Latitude 5420" value="{{ item['model'] if item else '' }}">
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label text-muted small text-uppercase fw-bold">Hardware Type</label>
+                    <input type="text" name="hardware_type" class="form-control rounded-pill bg-light border-0 px-3" 
+                           placeholder="Laptop, Monitor..." value="{{ item['hardware_type'] if item else '' }}">
+                </div>
+            </div>
+
+            <div class="mb-4">
+                <label class="form-label text-muted small text-uppercase fw-bold">Technical Specifications</label>
+                <textarea name="spec" class="form-control bg-light border-0 p-3" rows="3" style="border-radius: 15px;"
+                          placeholder="Processor, RAM, Storage details...">{{ item['spec'] if item else '' }}</textarea>
+            </div>
+
+            <h5 class="text-primary border-bottom pb-2 mb-4 mt-5"><i class="ph ph-currency-dollar"></i> Purchase & Warranty</h5>
+
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label class="form-label text-muted small text-uppercase fw-bold">Purchase Date</label>
+                    <input type="date" name="purchase_date" class="form-control rounded-pill bg-light border-0 px-3" 
+                           value="{{ item['purchase_date'] if item else '' }}">
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label text-muted small text-uppercase fw-bold">Warranty Period</label>
+                    <input type="text" name="warranty__period" class="form-control rounded-pill bg-light border-0 px-3" 
+                           placeholder="e.g. 3 Years" value="{{ item['warranty__period'] if item else '' }}">
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <label class="form-label text-muted small text-uppercase fw-bold">Vendor Name</label>
+                    <input type="text" name="vendor" class="form-control rounded-pill bg-light border-0 px-3" 
+                           value="{{ item['vendor'] if item else '' }}">
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label text-muted small text-uppercase fw-bold">Bill / PO Reference</label>
+                    <input type="text" name="bill_details" class="form-control rounded-pill bg-light border-0 px-3" 
+                           value="{{ item['bill_details'] if item else '' }}">
+                </div>
+            </div>
+
+            <h5 class="text-primary border-bottom pb-2 mb-4 mt-5"><i class="ph ph-map-pin"></i> Status & Location</h5>
+
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <label class="form-label text-muted small text-uppercase fw-bold">Physical Location</label>
+                    <input type="text" name="location" class="form-control rounded-pill bg-light border-0 px-3" 
+                           placeholder="Server Room, Office 101..." value="{{ item['location'] if item else '' }}">
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label text-muted small text-uppercase fw-bold">Current Status</label>
+                    <select name="status" class="form-select rounded-pill bg-light border-0 px-3">
+                        <option value="Active" {% if item and item['status'] == 'Active' %}selected{% endif %}>Active</option>
+                        <option value="In Repair" {% if item and item['status'] == 'In Repair' %}selected{% endif %}>In Repair</option>
+                        <option value="Retired" {% if item and item['status'] == 'Retired' %}selected{% endif %}>Retired</option>
+                        <option value="Lost" {% if item and item['status'] == 'Lost' %}selected{% endif %}>Lost</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-end gap-3 mt-5">
+                <a href="/" class="btn btn-light rounded-pill px-4 py-2">Cancel</a>
+                <button type="submit" class="btn btn-primary-custom px-5 py-2">
+                    {% if item %}Update Asset{% else %}Save New Asset{% endif %}
+                </button>
+            </div>
+
+        </form>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,310 @@
+﻿Slno,Inventory Name,Location,Place,Hardware Type,Make ,Model,Serial No,Spec,IP Address ,PO Details,Purchase Date,Bill Details,Vendor,"Warranty 
+Period","Warranty 
+Status", Status,
+,CSDCLT-ACC01,UB1,Reception,CPU,Assembled,"ANT ESPORTS
+(Gigabyte)",,,192.168.0.97,,,,,,,Working,
+,CSDCLT-M01,,,MONITOR,DELL,S2421HN,G2LJXN3,"24"" flat Panel Monitor",,,,,,,,Working,
+,CSDCLT-M02,,,MONITOR,DELL,S2421HN,13LJXN3,"24"" flat Panel Monitor",,,,,,,,Working,
+,,,,KEYBOARD,DELL,KB216,,Wired Key Board,,,,,,,,Working,
+,,,,MOUSE,DELL,MS116,,Opical Wired Mouse,,,,,,,,Working,
+,CSDCLT-PH01,,,IP PHONE,Fanvil,X301P,Q2G122A000262,IP PHONE,192.168.0.96,,,,,,,Working,
+,CSDCLT-Dir01,UB1,Dir Room,CPU,Assembled,"ANT ESPORTS
+(Gigabyte)",,"Core i5 12th Generation
+2x16GB RAM,1 TB SSD",,,,,,,,Working,
+,CSDCLT-M25,,,MONITOR,DELL,S2421HN,C2LJXN3,"24"" flat Panel Monitor",,,,,,,,Working,
+,CSDCLT-M26,,,MONITOR,DELL,S2421HN,82LJXN3,"24"" flat Panel Monitor",,,,,,,,Working,
+,,,,KEYBOARD,DELL,KB216,,Wired Key Board,,,,,,,,Working,
+,,,,MOUSE,DELL,MS116,,Opical Wired Mouse,,,,,,,,Working,
+,CSDCLT-Dir02,UB1,Dir Room,CPU,DELL,Precision Tower 5810,F851MV1,Intel(R) Xeon(R)CPU E5-1607 SSD 240GB,,,,,,,,Working,
+,CSDCLT-M29,,,MONITOR,DELL,S2421HN,5RVB1H3,"24"" flat Panel Monitor",,,,,,,,Working,
+,CSDCLT-M30,,,MONITOR,DELL,S2421HN,JQVB1H3,"24"" flat Panel Monitor",,,,,,,,Working,
+,,,,KEYBOARD,DELL,KB216,,Wired Key Board,,,,,,,,Working,
+,,,,KEYBOARD,DELL,MS116,,Opical Wired Mouse,,,,,,,,Working,
+,CSDCLT-IT01,GF, IT,CPU,DELL,Precision Tower 5810,31SFXH2,"Intel(R) Xeon(R)CPU E5-1607
+SSD 240GB",192.168.0.122,,,,,,,Working,
+,CSDCLT-M31,,,MONITOR,DELL,S2421HN,3WQ9023,"24"" flat Panel Monitor",,,,,,,,Working,
+,CSDCLT-M32,,,MONITOR,DELL,S2421HN,1GCBW13,"24"" flat Panel Monitor",,,,,,,,Working,
+,,,,KEYBOARD,DELL,KB216,,Wired Key Board,,,,,,,,Working,
+,,,,MOUSE,DELL,MS116,,Opical Wired Mouse,,,,,,,,Working,
+,CSDCLT-WS01,GF,A6,CPU,Assembled,"ANT ESPORTS
+(Gigabyte)",,"Core i5 12th Generation
+2x16GB RAM,1 TB SSD",192.168.0.57,,,,,,,Working,
+,CSDCLT-M07,,,MONITOR,DELL,S2421HN,W3M91H3,"24"" flat Panel Monitor",,,,,,,,Working,
+,CSDCLT-M08,,,MONITOR,DELL,S2421HN,7RVB1H3,"24"" flat Panel Monitor",,,,,,,,Working,
+,,,,KEYBOARD,DELL,KB216,,Wired Key Board,,,,,,,,Working,
+,,,,MOUSE,DELL,MS116,,Opical Wired Mouse,,,,,,,,Working,
+,CSDCLT-WS02,UB1,F3,CPU,Assembled,"ANT ESPORTS
+(Gigabyte)",,"Core i5 12th Generation
+2x16GB RAM,1 TB SSD",192.168.0.119,,,,,,,Working,
+,CSDCLT-M47,,,MONITOR,DELL,S2421HN,GGJW123,"24"" flat Panel Monitor",,,,,,,,Working,
+,CSDCLT-M48,,,MONITOR,DELL,S2421HN,FVQ9023,"24"" flat Panel Monitor",,,,,,,,Working,
+,,,,KEYBOARD,DELL,KB216,,Wired Key Board,,,,,,,,Working,
+,,,,MOUSE,DELL,KB216,,Opical Wired Mouse,,,,,,,,Working,
+,CSDCLT-WS03,UB1,E3,CPU,Assembled,"ANT ESPORTS
+(ASUS)",,"Core i5 12th Generation
+2x16GB RAM,1 TB SSD",192.168.0.74,,,,,,,Working,
+,CSDCLT-M13,,,MONITOR,DELL,S2421HN,J2LJXN3,"24"" flat Panel Monitor",,,,,,,,Working,
+,CSDCLT-M14,,,MONITOR,DELL,S2421HN,92LJXN3,"24"" flat Panel Monitor",,,,,,,,Working,
+,,,,KEYBOARD,DELL,KB216,,Wired Key Board,,,,,,,,Working,
+,,,,MOUSE,DELL,MS116,,Opical Wired Mouse,,,,,,,,Working,
+,CSDCLT-WS04,UB1,,CPU,Assembled,"ANT ESPORTS
+(Gigabyte)",,"Core i5 12th Generation
+2x16GB RAM,1 TB SSD",192.168.0.60,,,,,,,Working,
+,CSDCLT-M11,,,MONITOR,DELL,S2421HN,BJLM223,"24"" flat Panel Monitor",,,,,,,,Working,
+,CSDCLT-M12,,,MONITOR,DELL,S2421HN,JFCBW13,"24"" flat Panel Monitor",,,,,,,,Working,
+,,,,KEYBOARD,DELL,KB216,,Wired Key Board,,,,,,,,Working,
+,,,,MOUSE,DELL,MS116,,Opical Wired Mouse,,,,,,,,Working,
+,CSDCLT-WS05,UB1,G3,CPU,Assembled,"ANT ESPORTS
+(Gigabyte)",,"Core i5 12th Generation
+2x16GB RAM,1 TB SSD",192.168.0.70,,,,,,,Working,
+,CSDCLT-M17,,,MONITOR,DELL,S2421HN,13M91H3,"24"" flat Panel Monitor",,,,,,,,Working,
+,CSDCLT-M18,,,MONITOR,DELL,S2421HN,CYYB1H3,"24"" flat Panel Monitor",,,,,,,,Working,
+,,,,KEYBOARD,DELL,KB216,,Wired Key Board,,,,,,,,Working,
+,,,,MOUSE,DELL,MS116,,Opical Wired Mouse,,,,,,,,Working,
+,CSDCLT-WS06,GF,F4,CPU,Assembled,"ANT ESPORTS
+(ASUS)",,"Core i5 12th Generation
+2x16GB RAM,1 TB SSD",192.168.0.102,,,,,,,Working,
+,CSDCLT-M49,,,MONITOR,DELL,S2421HN,18FTYG3,"24"" flat Panel Monitor",,,,,,,,Working,
+,CSDCLT-M50,,,MONITOR,DELL,S2421HN,8RVB1H3,"24"" flat Panel Monitor",,,,,,,,Working,
+,,,,KEYBOARD,DELL,KB216,,Wired Key Board,,,,,,,,Working,
+,,,,MOUSE,DELL,MS116,,Opical Wired Mouse,,,,,,,,Working,
+,CSDCLT-WS07,UB1,,CPU,Assembled,"ANT ESPORTS
+(Gigabyte)",,"Core i5 12th Generation
+2x16GB RAM,1 TB SSD",192.168.0.55,,,,,,,Working,
+,CSDCLT-M21,,,MONITOR,DELL,SE2419HR,7SK8W23,"24"" flat Panel Monitor",,,,,,,,Working,
+,CSDCLT-M22,,,MONITOR,DELL,SE2419HR,28K8W23,"24"" flat Panel Monitor",,,,,,,,Working,
+,,,,KEYBOARD,DELL,KB216,,Wired Key Board,,,,,,,,Working,
+,,,,MOUSE,DELL,MS116,,Opical Wired Mouse,,,,,,,,Working,
+,CSDCLT-WS08,UB1,G2,CPU,Assembled,"ANT ESPORTS
+(ASUS)",,"Core i5 12th Generation
+2x16GB RAM,1 TB SSD",192.168.0.103,,,,,,,Working,
+,CSDCLT-M23,,,MONITOR,DELL,S2421HN,DRFJXN3,"24"" flat Panel Monitor",,,,,,,,Working,
+,CSDCLT-M24,,,MONITOR,DELL,S2421HN,FYKJXN3,"24"" flat Panel Monitor",,,,,,,,Working,
+,,,,KEYBOARD,DELL,KB216,,Wired Key Board,,,,,,,,Working,
+,,,,MOUSE,DELL,MS116,,Opical Wired Mouse,,,,,,,,Working,
+,CSDCLT-WS09,UB1,G1,CPU,Assembled,"ANT ESPORTS
+(ASUS)",,"Core i5 12th Generation
+2x16GB RAM,1 TB SSD",192.168.0.73,,,,,,,Working,
+,CSDCLT-M05,,,MONITOR,DELL,S2421HN,JJCTYG3,"24"" flat Panel Monitor",,,,,,,,Working,
+,CSDCLT-M06,,,MONITOR,DELL,S2421HN,GLSB1H3,"24"" flat Panel Monitor",,,,,,,,Working,
+,,,,KEYBOARD,DELL,KB216,,Wired Key Board,,,,,,,,Working,
+,,,,MOUSE,DELL,MS116,,Opical Wired Mouse,,,,,,,,Working,
+,CSDCLT-PH02,,C1,IP PHONE,Fanvil,X301P,Q2G122A000271,IP PHONE,192.168.0.100,,,,,,,Working,
+,CSDCLT-WS10,GF,G2,CPU,Assembled,"ANT ESPORTS
+(Gigabyte)",,"Core i5 12th Generation
+2x16GB RAM,1 TB SSD",192.168.0.67,,,,,,,Working,
+,CSDCLT-M27,,,MONITOR,DELL,S2421HN,6SHJXN3,"24"" flat Panel Monitor",,,,,,,,Working,
+,CSDCLT-M28,,,MONITOR,DELL,S2421HN,72LJXN3,"24"" flat Panel Monitor",,,,,,,,Working,
+,,,,KEYBOARD,DELL,KB216,,Wired Key Board,,,,,,,,Working,
+,,,,MOUSE,DELL,MS116,,Opical Wired Mouse,,,,,,,,Working,
+,CSDCLT-WS11,UB1,E2,CPU,Assembled,"ANT ESPORTS
+(Gigabyte)",,"Core i5 12th Generation
+2x16GB RAM,1 TB SSD",192.168.0.112,,,,,,,Working,
+,CSDCLT-M19,,,MONITOR,DELL,S2421HN,63LJXN3,"24"" flat Panel Monitor",,,,,,,,Working,
+,CSDCLT-M20,,,MONITOR,DELL,S2421HN,JNVMBH3,"24"" flat Panel Monitor",,,,,,,,Working,
+,,,,KEYBOARD,DELL,KB216,,Wired Key Board,,,,,,,,Working,
+,,,,MOUSE,DELL,MS116,,Opical Wired Mouse,,,,,,,,Working,
+,CSDCLT-WS12,GF,E4,CPU,Assembled,"ANT ESPORTS
+(Gigabyte)",,"Core i5 12th Generation
+2x16GB RAM,1 TB SSD",192.168.0.54,,,,,,,Working,
+,CSDCLT-M33,,,MONITOR,DELL,S2421HN,H2LJXN3,"24"" flat Panel Monitor",,,,,,,,Working,
+,CSDCLT-M34,,,MONITOR,DELL,S2421HN,GSHLXN3,"24"" flat Panel Monitor",,,,,,,,Working,
+,,,,KEYBOARD,DELL,KB216,,Wired Key Board,,,,,,,,Working,
+,,,,MOUSE,DELL,MS116,,Opical Wired Mouse,,,,,,,,Working,
+,CSDCLT-WS13,GF,F6,CPU,Assembled,"ANT ESPORTS
+(ASUS)",,"Core i5 12th Generation
+2x16GB RAM,1 TB SSD",192.168.0.79,,,,,,,Working,
+,CSDCLT-M09,,,MONITOR,DELL,S2421HN,14LJXN3,"24"" flat Panel Monitor",,,,,,,,Working,
+,CSDCLT-M10,,,MONITOR,DELL,S2421HN,32LJXN3,"24"" flat Panel Monitor",,,,,,,,Working,
+,,,,KEYBOARD,DELL,KB216,,Wired Key Board,,,,,,,,Working,
+,,,,MOUSE,DELL,MS116,,Opical Wired Mouse,,,,,,,,Working,
+,CSDCLT-WS14,UB1,H1,CPU,Assembled,"ANT ESPORTS
+(ASUS)",,"Core i5 12th Generation
+2x16GB RAM,1 TB SSD",192.168.0.71,,,,,,,Working,
+,CSDCLT-M03,,,MONITOR,DELL,S2421HN,2SFJXN3,"24"" flat Panel Monitor",,,,,,,,Working,
+,CSDCLT-M04,,,MONITOR,DELL,S2421HN,CQFJXN3,"24"" flat Panel Monitor",,,,,,,,Working,
+,,,,KEYBOARD,DELL,KB216,,Wired Key Board,,,,,,,,Working,
+,,,,MOUSE,DELL,MS116,,Opical Wired Mouse,,,,,,,,Working,
+,CSDCLT-WS15,UB1,H3,CPU,Assembled,"ANT ESPORTS
+(Gigabyte)",,"Core i5 12th Generation
+2x16GB RAM,1 TB SSD",192.168.0.69,,,,,,,Working,
+,CSDCLT-M15,,,MONITOR,DELL,S2421HN,FBFJXN3,"24"" flat Panel Monitor",,,,,,,,Working,
+,CSDCLT-M16,,,MONITOR,DELL,S2421HN,52LJXN3,"24"" flat Panel Monitor",,,,,,,,Working,
+,,,,KEYBOARD,DELL,KB216,,Wired Key Board,,,,,,,,Working,
+,,,,KEYBOARD,DELL,MS116,,Opical Wired Mouse,,,,,,,,Working,
+,CSDCLT-WS16,UB1,G4,CPU,Assembled,"ANT ESPORTS
+(Gigabyte)",,"Core i5 12th Generation
+2x16GB RAM,1 TB SSD",192.168.0.58,,,,,,,Working,
+,CSDCLT-M69,,,MONITOR,DELL,S2421HN,DDXJ093,"24"" flat Panel Monitor",,,,,,,,Working,
+,CSDCLT-M67,,,MONITOR,DELL,S2421HN,D3LJXN3,"24"" flat Panel Monitor",,,,,,,,Working,
+,,,,KEYBOARD,DELL,KB216,,Wired Key Board,,,,,,,,Working,
+,,,,MOUSE,DELL,MS116,,Opical Wired Mouse,,,,,,,,Working,
+,CSDCLT-PH03,,,IP PHONE,Fanvil,X301p,Q2G122A000264,IP PHONE,192.168.0.98,,,,,,,Working,
+,CSDCLT-WS17,GF,G3,CPU,Assembled,"ANT ESPORTS
+(Gigabyte)",,"Core i5 12th Generation
+2x16GB RAM,1 TB SSD",192.168.0.95,,,,,,,Working,
+,CSDCLT-M41,,,MONITOR,DELL,S2421HN,61M91H3,"24"" flat Panel Monitor",,,,,,,,Working,
+,CSDCLT-M42,,,MONITOR,DELL,S2421HN,3LL91H3,"24"" flat Panel Monitor",,,,,,,,Working,
+,,,,KEYBOARD,DELL,MS116,,Wired Key Board,,,,,,,,Working,
+,,,,MOUSE,DELL,KB216,,Opical Wired Mouse,,,,,,,,Working,
+,CSDCLT-WS18,GF,C4,CPU,Assembled,"ANT ESPORTS
+(Gigabyte)",,"Core i5 12th Generation
+2x16GB RAM,1 TB SSD",192.168.0.84,,,,,,,Working,
+,CSDCLT-M35,,,MONITOR,DELL,S2421HN,8RFJXN3,"24"" flat Panel Monitor",,,,,,,,Working,
+,CSDCLT-M36,,,MONITOR,DELL,S2421HN,5RFJXN3,"24"" flat Panel Monitor",,,,,,,,Working,
+,,,,KEYBOARD,DELL,MS116,,Wired Key Board,,,,,,,,Working,
+,,,,MOUSE,DELL,KB216,,Opical Wired Mouse,,,,,,,,Working,
+,CSDCLT-WS19,GF,C6,CPU,Assembled,"ANT ESPORTS
+(Gigabyte)",,"Core i5 12th Generation
+2x16GB RAM,1 TB SSD",192.168.0.86,,,,,,,Working,
+,CSDCLT-M45,,,MONITOR,DELL,S2421HN,544S0PS,"24"" flat Panel Monitor",,,,,,,,Working,
+,CSDCLT-M46,,,MONITOR,DELL,S2421HN,DZL91H3,"24"" flat Panel Monitor",,,,,,,,Working,
+,,,,KEYBOARD,DELL,KB216,,Wired Key Board,,,,,,,,Working,
+,,,,MOUSE,DELL,MS116,,Opical Wired Mouse,,,,,,,,Working,
+,CSDCLT-WS20,GF,A1,CPU,Assembled,"ANT ESPORTS
+(Gigabyte)",,"Core i5 12th Generation
+2x16GB RAM,1 TB SSD",192.168.0.77,,,,,,,Working,
+,CSDCLT-M55,,,MONITOR,DELL,S2421HN,D2LJXN3,"24"" flat Panel Monitor",,,,,,,,Working,
+,CSDCLT-M56,,,MONITOR,DELL,S2421HN,83LJXN3,"24"" flat Panel Monitor",,,,,,,,Working,
+,,,,KEYBOARD,DELL,KB216,,Wired Key Board,,,,,,,,Working,
+,,,,MOUSE,DELL,MS116,,Opical Wired Mouse,,,,,,,,Working,
+,CSDCLT-PH04,,A1,IP PHONE,Fanvil,X301G,Q1G1232006793,IP PHONE,192.168.0.72,,,,,,,Working,
+,CSDCLT-WS21,GF,D4,CPU,Assembled,"ANT ESPORTS
+(ASUS)",,"Core i5 12th Generation
+2x16GB RAM,1 TB SSD",192.168.0.76,,,,,,,Working,
+,CSDCLT-M39,,,MONITOR,DELL,S2421HN,2CFJXN3,"24"" flat Panel Monitor",,,,,,,,Working,
+,CSDCLT-M40,,,MONITOR,DELL,S2421HN,3KFJXN3,"24"" flat Panel Monitor",,,,,,,,Working,
+,,,,KEYBOARD,DELL,KB216,,Wired Key Board,,,,,,,,Working,
+,,,,MOUSE,DELL,MS116,,Opical Wired Mouse,,,,,,,,Working,
+,CSDCLT-WS22,GF,D5,CPU,Assembled,"ANT ESPORTS
+(Gigabyte)",,"Core i5 12th Generation
+2x16GB RAM,1 TB SSD",192.168.0.78,,,,,,,Working,
+,CSDCLT-M51,,,MONITOR,DELL,S2421HN,HRFJXN3,"24"" flat Panel Monitor",,,,,,,,Working,
+,CSDCLT-M52,,,MONITOR,DELL,S2421HN,G3LJXN3,"24"" flat Panel Monitor",,,,,,,,Working,
+,,,,KEYBOARD,DELL,KB216,,Wired Key Board,,,,,,,,Working,
+,,,,MOUSE,DELL,MS116,,Opical Wired Mouse,,,,,,,,Working,
+,CSDCLT-WS23,GF,D1,CPU,Assembled,"ANT ESPORTS
+(ASUS)",,"Core i5 12th Generation
+2x16GB RAM,1 TB SSD",192.168.0.93,,,,,,,Working,
+,CSDCLT-M43,,,MONITOR,DELL,S2421HN,GBWMBH3,"24"" flat Panel Monitor",,,,,,,,Working,
+,CSDCLT-M44,,,MONITOR,DELL,SE2419HR,71L8W23,"24"" flat Panel Monitor",,,,,,,,Working,
+,,,,KEYBOARD,DELL,KB216,,Wired Key Board,,,,,,,,Working,
+,,,,MOUSE,DELL,MS116,,Opical Wired Mouse,,,,,,,,Working,
+,CSDCLT-WS24,GF,E2,CPU,Assembled,"ANT ESPORTS
+(Gigabyte)",,"Core i5 12th Generation
+2x16GB RAM,1 TB SSD",192.168.0.50,,,,,,,Working,
+,CSDCLT-M53,,,MONITOR,DELL,S2421HN,2RFJXN3,"24"" flat Panel Monitor",,,,,,,,Working,
+,CSDCLT-M54,,,MONITOR,DELL,S2421HN,DVQ9023,"24"" flat Panel Monitor",,,,,,,,Working,
+,,,,KEYBOARD,DELL,KB216,,Wired Key Board,,,,,,,,Working,
+,,,,MOUSE,DELL,MS116,,Opical Wired Mouse,,,,,,,,Working,
+,CSDCLT-WS25,GF,E1,CPU,Assembled,"ANT ESPORTS
+(Gigabyte)",,"Core i5 12th Generation
+2x16GB RAM,1 TB SSD",192.168.0.80,,,,,,,Working,
+,CSDCLT-M37,,,MONITOR,DELL,S2421HN,HSHJXN3,"24"" flat Panel Monitor",,,,,,,,Working,
+,CSDCLT-M38,,,MONITOR,DELL,S2421HN,3RFJXN3,"24"" flat Panel Monitor",,,,,,,,Working,
+,,,,KEYBOARD,DELL,KB216,,Wired Key Board,,,,,,,,Working,
+,,,,MOUSE,DELL,MS116,,Opical Wired Mouse,,,,,,,,Working,
+,CSDCLT-WS26,GF,C1,CPU,Assembled,"ANT ESPORTS
+(ASUS)",,"Core i5 12th Generation
+2x16GB RAM,1 TB SSD",192.168.0.59,,,,,,,Working,
+,CSDCLT-M57,,,MONITOR,DELL,S2421HN,70M91H3,"24"" flat Panel Monitor",,,,,,,,Working,
+,CSDCLT-M58,,,MONITOR,DELL,S2421HN,9RVB1H3,"24"" flat Panel Monitor",,,,,,,,Working,
+,,,,KEYBOARD,DELL,KB216,,Wired Key Board,,,,,,,,Working,
+,,,,MOUSE,DELL,MS116,,Opical Wired Mouse,,,,,,,,Working,
+,CSDCLT-WS27,GF,B3,CPU,Assembled,"ANT ESPORTS
+(Gigabyte)",,"Core i5 12th Generation
+2x16GB RAM,1 TB SSD",192.168.0.114,,,,,,,Working,
+,CSDCLT-M61,,,MONITOR,DELL,S2421HN,4QNM223,"24"" flat Panel Monitor",,,,,,,,Working,
+,CSDCLT-M62,,,MONITOR,DELL,S2421HN,20M91H3,"24"" flat Panel Monitor",,,,,,,,Working,
+,,,,KEYBOARD,DELL,KB216,,Wired Key Board,,,,,,,,Working,
+,,,,MOUSE,DELL,MS116,,Opical Wired Mouse,,,,,,,,Working,
+,CSDCLT-WS28,GF,D6,CPU,Assembled,S2421HN,,"Core i5 12th Generation
+2x16GB RAM,1 TB SSD",192.168.0.126,,,,,,,Working,
+,CSDCLT-M59,,D6,MONITOR,DELL,S2421HN,9RFJXN3,"24"" flat Panel Monitor",,,,,,,,Working,
+,CSDCLT-M60,,D6,MONITOR,DELL,S2421HN,HPGJXNX,"24"" flat Panel Monitor",,,,,,,,Working,
+,,,D6,KEYBOARD,DELL,KB216,,Wired Key Board,,,,,,,,Working,
+,,,D6,MOUSE,DELL,MS116,,Opical Wired Mouse,,,,,,,,Working,
+,CSDCLT-WS29,GF,B4,CPU,Assembled,"ANT ESPORTS
+(Gigabyte)",,"Core i5 12th Generation
+2x16GB RAM,1 TB SSD",192.168.0.68,,,,,,,Working,
+,CSDCLT-M68,,Reception,MONITOR,DELL,SE2419HR,BGK8W23,"24"" flat Panel Monitor",,,,,,,,Working,
+,,,Reception,KEYBOARD,DELL,KB216,,,,,,,,,,Working,
+,,,Reception,MOUSE,DELL,MS116,,,,,,,,,,Working,
+,CSDCLT-PH05,UB1,Reception,IP PHONE,Fanvil,X301P,Q2G122A000250,IP PHONE,192.168.0.115,,,,,,,Working,
+,CSDCLT-PH06,UB1,Dir Room,IP PHONE,Fanvil,X4U,P7G2231001714,IP PHONE,192.168.0.85,,,,,,,Working,
+,CSDCLT-PH07,UB1,Dir Room,IP PHONE,Fanvil,X4U,P7G2231001722,IP PHONE,192.168.0.83,,,,,,,Working,
+,CSDCLT-PTR01,UB1,Reception,PRINTER,BROTHER,DCP-L2541DW,E73802K2N502357,Multifunction Printer-ADF,192.168.0.118,,,,,,,Working,
+,CSDCLT-PTR02,UB1,Dir Room,PRINTER,PANTUM,M6550N,,Multifunction Printer,192.168.0.138,,,,,,,Working,
+,CSDCLT-LAP02,,Dilna-WFH,LAPTOP,DELL,Precision 7520,4BYCNH2,"Intel core i7,2x8GB RAM
+SSD 500 GB",,,,,,,,Working,
+,CSDCLT-LAP04,UB1,IT Stock,LAPTOP,DELL,Precision 7520,2VFLNH2,"Intel core i7,2x8GB RAM
+SSD 500 GB",,,,,,,,Working,
+,CSDCLT-LAP05,,Remote User,LAPTOP,DELL,Precision 7520,CDOJGH2,"Intel core i7,2x8GB RAM
+SSD 500 GB",,,,,,,,Working,
+,CSDCLT-LAP06,,Nivya-WFH,LAPTOP,DELL,Precision 7520,2CR7LH2,"Intel core i7,2x8GB RAM
+SSD 500 GB",,,,,,,,Working,
+,CSDCLT-LAP07,,Silpa-WFH,LAPTOP,DELL,Precision 7520,C767LH2,"Intel core i7,2x8GB RAM
+SSD 500 GB",,,,,,,,Working,
+,CSDCLT-WS30,GF,D3,CPU,Assembled,"ANT ESPORTS
+(Gigabyte)",,"Core i5 12th Generation
+2x16GB RAM,1 TB SSD",192.168.0.121,,,,,,,Working,
+,CSDCLT-M63,,Dir Room,MONITOR,DELL,SE2419HR,DSL8W23,"24"" flat Panel Monitor",,,,,,,,Working,
+,,,Dir Room,KEYBOARD,DELL,WK118,,Wireless KeyBoard,,,,,,,,Working,
+,,,Dir Room,MOUSE,,WM118,,Wireless Mouse,,,,,,,,Working,
+,CSDCLT-WS31,GF,C2,CPU,Assembled,"ANT ESPORTS
+(Gigabyte)",,"Core i5 12th Generation
+2x16GB RAM,1 TB SSD",192.168.0.64,,,,,,,Working,
+,CSDCLT-M65,,Dir Room,MONITOR,DELL,S2421HN,CDXJ093,"24"" flat Panel Monitor",,,,,,,,Working,
+,CSDCLT-SVR01,UB1,Svr Room,SERVER,DELL,EMC Power Edge R450,HVGG0T3,"Intel Xeon Silver 4310 CPU
+1x16GB RAM Os 2022 Std ",192.168.0.254,,,,,,,Working,
+,CSDCLT-M66,,Svr Room,MONITOR,DELL,P1914f,CN-06WMM7-72872-536-A4CB,LCD Monotor,,,,,,,,Working,
+,CSDCLT-TV01,UB1,Board Room,TV,One Plus,,,Android TV,,,,,,,,Working,
+,,,Svr Room,KEYBOARD,DELL,KB216,,Wired Key Board,,,,,,,,Working,
+,,,Svr Room,MOUSE,DELL,MS116,,Opical Wired Mouse,,,,,,,,Working,
+,CSDCLT-SW01,UB1,Svr Room,SWITCH,CISCO,Business350,,24 port Switch,192.168.0.252,,,,,,,Working,
+,CSDCLT-SW02,UB1,Svr Room,SWITCH,CISCO,Business350,FOC2637YGAD,24 port Switch,192.168.0.251,,,,,,,Working,
+,CSDCLT-SW03,UB1,Svr Room,SWITCH,CISCO,Business350,FOC2808Y2SA,24 port POE Switch,192.168.0.249,,,"IN/STC3157/24-25
+Dated on 14-12-24",Sysin,,,Working,
+,CSDCLT-NAS01,UB1,Svr Room,STORAGE,Synology,DS220 +,22C0RLR09GV1H,Network Storage Device,192.168.0.253,,,,,,,Working,
+,CSDCLT-FW01,UB1,Svr Room,FIRE WALL,FortiGate,FG-60F,FGT60FTK2109CEZV,Fire Wall Device,192.168.0.1,,,,,,,Working,
+,CSDCLT-RTR01,UB1,Svr Room,ROUTER,Net Link,HG323RGW,,Internet Router(BSNL),,,,,,,,Working,
+,CSDCLT-RTR02,UB1,Svr Room,ROUTER,,,,Internet Router,,,,,,,,Working,
+,,,Svr Room,GATEWAY,DINSTAR,UC100-1G1S1O,DD59-C100-91-0061,GSM Gateway,192.168.100.254/192.168.0.248,,,,,,,Working,
+,CSDCLT-BIO01,UB1,Glass Door,ACCESS CONTROL,Essl,AI Face Mars,NCD8242100530,bio Metric Access Controll,192.168.0.210,,,"IN/STC3157/24-25
+Dated on 14-12-24",Sysin,,,Working,
+,CSDCLT-UPS01,UB1,Svr Room,UPS,Eaton,DXRT6KS-IN,F155-A2606960021,6Kv UPS With 16 Batteries,,,,,,,,Working,
+,CSDCLT-8pSW01,,It Stock,SWITCH,TP Link,TL-SG108E,221B371007277,8pGbSwitch,,,,,,,,Working,
+,CSDCLT-8pSW02,,vpv,SWITCH,TP Link,TL-SG108E,22130R2011015,8pGbSwitch,,,,,,,,Working,
+,CSDCLT-8pSW03,,It Stock,SWITCH,TP Link,TL-SG108E,219CE85002798,8pGbSwitch,,,,,,,,Working,
+,CSDCLT-8pSW04,,jay,SWITCH,TP Link,TL-SG108E,,8pGbSwitch,,,,,,,,Working,
+,CSDCLT-8pSW05,,IT Stock,SWITCH,MERCUSYS,MS108G,22253D8002793,8pGbSwitch,,,,,,,,Working,
+,CSDCLT-WS32,UB1,H4,CPU,Assembled,"ANT ESPORTS
+(ASUS)",,"Core i5 12th Generation
+2x16GB RAM,1 TB SSD",192.168.0.61,,,,,,,Working,
+,CSDCLT-M64,GF, IT ,MONITOR,DELL,SE2419HR,GFK8W23,"24"" flat Panel Monitor",,,,,,,,Working,
+,,GF,IT,CAMERA,Logitech,C505,2132AP03HCC9,720p Web camera,,PO-00007,,9/3/2024,My G,2 years,Active,Working,
+,,,,,,,,,,,,,,,,,
+,CSDCLT-WS33,GF,E3,CPU,Assembled,"ANT ESPORTS
+(Gigabyte)",,"i7 14th gen, 32 gb RAM 1TB 
+SSD",,,,"IN/STC3096/24-25
+ Dated on 11-09-2024",Sysin,3 Year,Active,Working,It Stock
+,,,,MONITOR,Dell,S2425H,FN9HH34,"24"" flat Panel Monitor",,,,"IN/STC3176/24-25
+06/01/2025",,,,,
+,,,,MONITOR,Dell,S2425H,,"24"" flat Panel Monitor",,,,"IN/STC3176/24-25
+06/01/2025",,,,,
+,,,,KEYBOARD,,,,Wired Key Board,,,,Same as CPU,,,,,
+,,,,MOUSE,,,,Opical Wired Mouse,,,,Same as CPU,,,,,
+,CSDCLT-WS34,GF,G5,CPU,Assembled,"ANT ESPORTS
+(Gigabyte)",,"i7 14th gen, 32 gb RAM 1TB 
+SSD",,,,"IN/STC3096/24-25
+ Dated on 11-09-2024",Sysin,3 Year,Active,Working,It Stock
+,,,,MONITOR,Dell,S2425H,64H1H34,"24"" flat Panel Monitor",,,,"IN/STC3176/24-25
+06/01/2025",,,,,
+,,,,MONITOR,Dell,S2425H,,"24"" flat Panel Monitor",,,,"IN/STC3176/24-25
+06/01/2025",,,,,
+,,,,KEYBOARD,Dell,KB216,,Wired Key Board,,,,Same as CPU,,,,,
+,,,,MOUSE,Dell,MS116,,Opical Wired Mouse,,,,Same as CPU,,,,,
+,CSDCLT-WS35,GF,G6- Solid Works,CPU,Assembled,"ANT ESPORTS
+(Gigabyte)",,"i7 14th gen, 32 gb RAM 1TB 
+SSD",,,,"IN/STC3096/24-25
+ Dated on 11-09-2024",Sysin,3 Year,Active,Working,It Stock
