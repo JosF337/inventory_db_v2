@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container d-flex flex-column align-items-center justify-content-center" style="min-height: 80vh;">
+    
+    <div class="glass-card text-center p-5" style="max-width: 600px;">
+        <i class="ph-duotone ph-warning-circle text-warning mb-4" style="font-size: 5rem;"></i>
+        
+        <h1 class="fw-bold mb-3">Oops! Something went wrong.</h1>
+        <p class="text-muted mb-4 lead">
+            {{ message | default("We couldn't find the page you were looking for.") }}
+        </p>
+
+        {% if code %}
+            <div class="badge bg-light text-secondary border px-3 py-2 mb-4 rounded-pill">
+                Error Code: {{ code }}
+            </div>
+        {% endif %}
+
+        <div class="d-flex justify-content-center gap-3">
+            <a href="/" class="btn btn-primary-custom px-4">
+                <i class="ph-bold ph-house"></i> Return Home
+            </a>
+            <a href="javascript:history.back()" class="btn btn-light rounded-pill px-4 border">
+                <i class="ph-bold ph-arrow-left"></i> Go Back
+            </a>
+        </div>
+    </div>
+
+</div>
+{% endblock %}
