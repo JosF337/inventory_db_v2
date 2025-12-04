@@ -2,7 +2,7 @@
 INVENTORY MANAGEMENT SYSTEM - CONTROLLER
 ----------------------------------------
 Description: Main application logic handling routes, database connections,
-             and business logic for the inventory system.
+and business logic for the inventory system.
 """
 
 from flask import Flask, render_template, request, redirect, url_for, send_file, Response
@@ -186,4 +186,5 @@ def export_data():
 
 # --- APP START (Must be at the very end) ---
 if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+    # host='0.0.0.0' makes the server accessible outside the container
+    app.run(debug=True, port=5000, host='0.0.0.0')

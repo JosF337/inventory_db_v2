@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  inventory-app:
+    build: .
+    container_name: enlarz-inventory
+    ports:
+      - "5000:5000"  # Maps port 5000 on your PC to port 5000 in the container
+    volumes:
+      # CRITICAL: This maps your local database file to the container.
+      # If you don't do this, your data is lost every time the container stops!
+      - ./inventory.db:/app/inventory.db
+    restart: always
